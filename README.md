@@ -22,16 +22,23 @@ Shopping Cart for [The Odin Project](https://www.theodinproject.com/)
 In order to setup and work on this project on your own, you will need to:
 
 1.  Clone this project:
-    `git clone `
 
-2.  Once you have cloned this project, you can install the required dependencies by using:
-    `npm install`
+```sh
+  $ git clone https://github.com/dan-tran-van/shopping-cart-top
+  $ cd shopping-cart-top
+```
 
-3.  A live demo of the project can be started by using:
-    `npm run dev`
+2.  Install the required dependencies:
 
-4.  Distribution files can be produced using:
-    `npm run build`
+```sh
+  $ npm install
+```
+
+3. Run development server:
+
+```sh
+   $ npm run dev
+```
 
 ## Credits/Acknowledgments
 

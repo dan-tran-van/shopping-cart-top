@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shopping Cart for [The Odin Project](https://www.theodinproject.com/)
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+1. **Cart**: The website has a cart feature where users can add items and then edit out their desired quantities on checkout. The cart is updated instantly and is passed down through a Cart Context Provider.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Built with
 
-- Configure the top-level `parserOptions` property like this:
+- Vite + React + TypeScript
+- [React Router](https://reactrouter.com/en/main)
+- React Libraries:
+  - [lucide-react](https://lucide.dev/)
+  - [swr](https://swr.vercel.app/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Getting started
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+In order to setup and work on this project on your own, you will need to:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1.  Clone this project:
+    `git clone `
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+2.  Once you have cloned this project, you can install the required dependencies by using:
+    `npm install`
+
+3.  A live demo of the project can be started by using:
+    `npm run dev`
+
+4.  Distribution files can be produced using:
+    `npm run build`
+
+## Credits/Acknowledgments
+
+This project is for personal use only. I do not own any of the rights for the assets used in this project.
+
+Product data and images were retrieved from [Fake Store API](https://fakestoreapi.com/)
+
+## Display
